@@ -1,8 +1,8 @@
 import Button from "../button/button.component"
 
-import './cart-dropdown.styles.scss'
+import "./cart-dropdown.styles.scss"
 
-const CardDropdown = () => {
+const CartDropdown = () => {
 	return (
 		<div className='cart-dropdown-container'>
 			<div className='cart-items' />
@@ -11,4 +11,4 @@ const CardDropdown = () => {
 	)
 }
 
-export default CardDropdown
+export default CartDropdown
